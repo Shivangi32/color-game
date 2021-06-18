@@ -1,0 +1,69 @@
+body{
+    background-color: rgba(0, 0, 0, 0.86);
+    color: white;
+    margin: 0;
+}
+
+h1{
+    text-align: center;
+    font-size: 3vw;
+    background-color: steelblue;
+    margin: 0;
+    padding: 2vw;
+    text-transform: uppercase;
+    font-family:'Courier New', Courier, monospace;
+}
+#container{
+    width:50vw;
+    height: 28vw;
+    padding-left: 6vw;
+    margin: 1vw auto 0 auto;
+}
+
+#message{
+    width:20%;
+    display: inline-block;
+    color: black;
+    font-size: 2vw;
+    background: none;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+.square{
+    background-color: blueviolet;
+    width:12vw;
+    border-radius: 1vw;
+    height: 12vw;
+    margin: 1.4vw;
+    float: left;
+    transition: 0.5s;
+}
+h1 span{
+    font-size: 4vw;
+}
+#stripe{
+    background-color: white;
+    height: 2.3vw;
+    text-align: center;
+}
+.selected{
+    background-color: rgb(0, 38, 255);
+    color: white;
+}
+
+button{
+    color: steelblue;
+    border: none;
+    font-size: 1.5vw;
+    background: none;
+    text-transform: uppercase;
+    font-weight: 600;
+    height: 100%;
+    padding: 0.3vw;
+    transition: 1s;
+}
+
+button:hover{
+    background-color: steelblue;
+    color: white;
+}
